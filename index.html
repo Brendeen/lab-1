@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lab 01</title>
+
+  <style>
+
+    body {
+      background-color: darkgrey;
+    }
+    h1 {
+      color: blue; background-color: aqua;
+    }
+
+
+  </style>
+
+</head>
+
+<body>
+  <header>
+    <h1>Lab 01</h1>
+  </header>
+  <main>
+    <p style="color:red; background-color:orangered">What is your name?</p>
+    <p style="color: orange; background-color:yellow">Where are you from?</p>
+    <p style="color:green; background-color:blue">What is your favorite color?</p>
+    <p style="color:purple; background-color:violet">Whats your favorite flavor of ice cream?</p>
+  </main>
+  <footer>
+
+  </footer>
+
+  <script>
+    console.log('Welcome to my website!');
+
+    let question1Responce = prompt('Hey! What is your name?')
+
+    alert('Welcome ' + question1Responce + '!')
+
+    console.log(question1Responce + ' is the name of this user.')
+
+    let question2Responce = prompt('Where are you from?')
+
+    alert('Cool! So ' + question1Responce + ' is from ' + question2Responce + '. Ive heard its nice there.')
+
+    console.log(question2Responce + ' is where ' + question1Responce + ' is from.')
+
+    let question3Responce = prompt('What is your favorite color?')
+
+    alert('Nice! ' + question3Responce + ' is one of my favorite colors too, ' + question1Responce + ' from ' + question2Responce + '.')
+
+    console.log(question3Responce + ' is ' + question1Responce + 's favorite color.')
+
+    let question4Responce = prompt('Whats your favorite flavor of ice cream?')
+
+    alert('Yum! ' + question4Responce + ' is pretty good. Im glad i got to know you ' + question1Responce + ' from ' + question2Responce + ' whos favorite color is ' + question3Responce + '.')
+
+    console.log(question1Responce + 's favorite ice cream is ' + question4Responce + '.')
+
+
+
+
+
+
+  </script>
+</body>
+</html>
